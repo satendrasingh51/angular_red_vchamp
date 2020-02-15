@@ -1,0 +1,35 @@
+export class Pan {
+    updated: { type: Date };
+    areaoffice: string;
+    aocode: string;
+    ao: string;
+    range: string;
+    aonumber: string;
+    application: string;
+    old_pan: string;
+    category: string;
+    applicant: string;
+    firstname: string;
+    middlename: string;
+    lastname: string;
+    ffirstname: string;
+    fmiddlename: string;
+    flastname: string;
+    cardHolder: string;
+    dob: string;
+    contect_number: string;
+    email: string;
+    proofid: string;
+    proofadd: string;
+    proofdob: string;
+    gender: string;
+    adhar_number: string;
+    address_f: string;
+    address_v: string;
+    address_p: string;
+    address_divi: string;
+    address_d: string;
+    state: string;
+    pin_code: string;
+    document: string;
+}

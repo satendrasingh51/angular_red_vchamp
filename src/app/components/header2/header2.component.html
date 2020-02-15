@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+  <a class="navbar-brand" href="/"><img class="brandname" src="../../../assets/images/brand_name.png" alt=""></a>
+  <div class="btn-group">
+    <button type="button" class="btn  rounded-0 btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Menu
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+      <button class="dropdown-item" type="text"><a class="nav-item nav-link" routerLink="/welcome">Welcome</a></button>
+      <button class="dropdown-item" type="text"><a class="nav-item nav-link" routerLink="/userProfile">UserProfile</a></button>
+      <button class="dropdown-item" type="text"><a class="nav-item nav-link" routerLink="/newpan">New Pan</a></button>
+      <button class="dropdown-item" type="text"><a *ngIf="_regAuthService.loggedIn()" class="nav-item nav-link" (click)="_regAuthService.logoutUser()">Logout</a></button>
+    </div>
+  </div>
+  </div>
+  </nav>
+  <div class="otherheader "></div>
+  

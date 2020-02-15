@@ -1,0 +1,68 @@
+<app-header></app-header>
+<!-- contact us -->
+<section id="contact" class="alert-danger">
+    <div class="text text-center"><br><br><br>
+      <h1>Contact us</h1>
+    </div><br>
+      <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="plain-table">
+    <div class="address-bar">
+      <p>Example@exampleorg.com <br><br> Mobile n. +910000000000</p><br><br>
+      <h1>Follow me</h1>
+      <div class="icon-animation">
+        <ul>
+        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <!-- <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
+        </ul>		
+      </div>
+    </div><br><br><br><br><br><br><br>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="plain-table">
+              <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputnamel4">Name</label>
+        <input type="text" class="form-control rounded-0" id="inputnamel4" placeholder="Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control rounded-0" id="inputemail4" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control rounded-0" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control rounded-0" placeholder="Address field" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control  rounded-0">
+         <option *ngFor="let contacts of contact">{{contacts}} </option>
+          </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control rounded-0" id="inputZip">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-danger rounded-0">Send</button>
+  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <hr>
